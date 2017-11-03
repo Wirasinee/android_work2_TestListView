@@ -30,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
 
         //mData = new ArrayList<>();(1)
 
-        Animal animal = new Animal("Cat",R.drawable.cat);
+        Animal animal = new Animal("แมว (Cat)",R.drawable.cat,getString(R.string.details_cat));
         animalData.animalList.add(animal);
-        animalData.animalList.add(new Animal("Dog",R.drawable.dog));
-        animalData.animalList.add(new Animal("Dolphin",R.drawable.dolphin));
-        animalData.animalList.add(new Animal("Koala",R.drawable.koala));
-        animalData.animalList.add(new Animal("Lion",R.drawable.lion));
-        animalData.animalList.add(new Animal("Owl",R.drawable.owl));
-        animalData.animalList.add(new Animal("Penguin",R.drawable.penguin));
-        animalData.animalList.add(new Animal("Pig",R.drawable.pig));
-        animalData.animalList.add(new Animal("Rabbit",R.drawable.rabbit));
-        animalData.animalList.add(new Animal("Tiger",R.drawable.tiger));
+        animalData.animalList.add(new Animal("หมา (Dog)",R.drawable.dog,getString(R.string.details_dog)));
+        animalData.animalList.add(new Animal("โลมา (Dolphin)",R.drawable.dolphin,getString(R.string.details_dolphin)));
+        animalData.animalList.add(new Animal("โคอาลา (Koala)",R.drawable.koala,getString(R.string.details_koala)));
+        animalData.animalList.add(new Animal("สิงโต (Lion)",R.drawable.lion,getString(R.string.details_lion)));
+        animalData.animalList.add(new Animal("นกฮูก (Owl)",R.drawable.owl,getString(R.string.details_owl)));
+        animalData.animalList.add(new Animal("เพนกวิ้น (Penguin)",R.drawable.penguin,getString(R.string.details_penguin)));
+        animalData.animalList.add(new Animal("หมู (Pig)",R.drawable.pig,getString(R.string.details_pig)));
+        animalData.animalList.add(new Animal("กระต่าย (Rabbit)",R.drawable.rabbit,getString(R.string.details_rabbit)));
+        animalData.animalList.add(new Animal("เสือ (Tiger)",R.drawable.tiger,getString(R.string.details_tiger)));
         //จะเอาข้อมูลมาแสดงในListViewต้องใช้ Adapterเชือมโยงรหว่างListViewกับmDate   ที่นีเี่ใช้ ArrayAdaptwe:กรณีข้อมูลเราเป็นarray หรือ arraylist
 
         /*(5)

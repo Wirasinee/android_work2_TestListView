@@ -30,8 +30,8 @@ public class AnimalDetailsActivity extends AppCompatActivity {
 
 
 
-        //setลงในวิวต่างๆ(3)
-        nameTextView.setText(animal.name);
+        //setลงในวิวต่างๆ(3) getString(R.string.details_cat)
+        nameTextView.setText(animal.detail);
         animalImageView.setImageResource(animal.picture);
 
         getSupportActionBar().setTitle(animal.name);//setชื่อ title ข้างบนสุด
